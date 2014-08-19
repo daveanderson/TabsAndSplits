@@ -33,7 +33,7 @@ Using this sample app in portrait mode, it is desirable that on tapping the back
 
 There does not appear to be a way to display the overlay in such a fashion as it is *under* the tab bar, but an overlay of the detail view.
 
-It was expected, given the arrangement of a UISplitViewController inside a UITabBarController, that the overlay master view controller would be displayed under the tab bar but over the detail view, as see here:
+It was expected, given the arrangement of a UISplitViewController inside a UITabBarController, that the overlay master view controller would be displayed under the tab bar but over the detail view, as see in the following **mockup**:
 
 ![](http://cl.ly/image/0p0n401d043Q/Image%202014-08-19%20at%2010.22.40%20AM.png)
 
