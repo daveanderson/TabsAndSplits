@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SplitViewController.h
 //  TabsAndSplits
 //
 //  Created by David Anderson on 2014-08-18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface SplitViewController : UISplitViewController
 
 @end
-
