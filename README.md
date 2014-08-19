@@ -31,7 +31,7 @@ Using this sample app in portrait mode, it is desirable that on tapping the back
 
 ![](http://cl.ly/image/3Q3H2R262N0Z/Image%202014-08-19%20at%2010.14.47%20AM.png)
 
-There does not appear to be a way to display the overlay in such a fashion as it is *under* the tab bar, but an overlay of the detail view.
+There does not appear to be a way to display the overlay in such a fashion as it is *under* the tab bar, but an overlay of the detail view. The appearance of the master view *over top of the tab bar* seems like a violation of the implied view hierarchy.
 
 It was expected, given the arrangement of a UISplitViewController inside a UITabBarController, that the overlay master view controller would be displayed under the tab bar but over the detail view, as see in the following **mockup**:
 
