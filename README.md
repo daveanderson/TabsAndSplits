@@ -37,3 +37,22 @@ It was expected, given the arrangement of a UISplitViewController inside a UITab
 
 ![](http://cl.ly/image/0p0n401d043Q/Image%202014-08-19%20at%2010.22.40%20AM.png)
 
+It should be noted that the iOS 7 documentation specifically states that 
+
+> A split view controller must always be the root of any interface you create. In other words, you must always install the view from a UISplitViewController object as the root view of your application’s window. The panes of your split view interface may then contain navigation controllers, tab bar controllers, or any other type of view controller you need to implement your interface.
+
+https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/SplitViewControllers.html
+
+Despite this statement, however, it appears that several of Apple's own iPad apps are breaking the recommended convention. (The `UISplitViewControllerDisplayModePrimaryOverlay` option is only available in iOS8.)
+
+## Podcasts
+
+![](http://cl.ly/image/053J1o0X2p1o/Image%202014-08-19%20at%2011.35.40%20AM.png)
+
+## iTunes U
+
+![](http://cl.ly/image/0D3u3L2h1B1A/Image%202014-08-19%20at%2011.30.04%20AM.png)
+
+## WWDC
+
+![](http://cl.ly/image/323W2c3G1L1A/Image%202014-08-19%20at%2011.30.31%20AM.png)
